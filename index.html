@@ -4,6 +4,7 @@
     <title>
       Shopping List
     </title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="container">
@@ -14,13 +15,16 @@
           <label>
             Add an item
           </label>
-          <input type="text" placeholder="e.g., broccoli">
-          <button type="submit">
+          <input id="item-text" type="text" placeholder="e.g., broccoli">
+          <button id="create-button" type="submit">
             Add item
           </button>
       </form>
-      <ul>
+      <ul id ="items-container">
+        
       </ul>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
